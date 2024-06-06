@@ -1,0 +1,78 @@
+/* css/style.css */
+
+/* Estilização geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do menu de navegação */
+nav {
+    background-color: #3f096a; /* Cor de fundo do menu */
+    overflow: hidden;
+}
+
+nav ul.menu {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul.menu li {
+    float: left;
+}
+
+nav ul.menu li a {
+    display: block;
+    color: white; /* Cor do texto dos links */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+nav ul.menu li a:hover {
+    background-color: #575757; /* Cor de fundo ao passar o mouse */
+}
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        font-size: 14px;
+    }
+  
+    h1 {
+        font-size: 18px;
+    }
+  
+    form {
+        padding: 15px;
+    }
+  
+    button {
+        padding: 8px 10px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    body {
+        margin: 20px;
+        font-size: 16px;
+    }
+  
+    h1 {
+        font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 901px) {
+    body {
+        margin: 30px;
+        font-size: 18px;
+    }
+  
+    h1 {
+        font-size: 24px;
+    }
+  }
+  
